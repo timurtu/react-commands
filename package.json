@@ -1,0 +1,19 @@
+{
+  "name": "react-commands",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": ["bin"],
+  "bin": {
+    "react": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
